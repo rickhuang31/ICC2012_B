@@ -3,7 +3,7 @@
 // `include "TMR_Simplex.v"
 
 // module NFC_TMR(clk, rst, done, F_IO_A, F_CLE_A, F_ALE_A, F_REN_A, F_WEN_A, F_RB_A, F_IO_B, F_CLE_B, F_ALE_B, F_REN_B, F_WEN_B, F_RB_B, KEY, A_ERROR_CTRL, B_ERROR_CTRL, C_ERROR_CTRL, TMR_ERROR);
-module NFC_TMR(clk, rst, done, F_IO_A, F_CLE_A, F_ALE_A, F_REN_A, F_WEN_A, F_RB_A, F_IO_B, F_CLE_B, F_ALE_B, F_REN_B, F_WEN_B, F_RB_B, KEY);
+module NFC_TMR(clk, rst, done, F_IO_A_IN, F_IO_A_OUT, F_CLE_A, F_ALE_A, F_REN_A, F_WEN_A, F_RB_A, F_IO_B_IN, F_IO_B_OUT, F_CLE_B, F_ALE_B, F_REN_B, F_WEN_B, F_RB_B, KEY);
 
     /*===============NFC_TMR IO===============*/
     // input A_ERROR_CTRL,B_ERROR_CTRL,C_ERROR_CTRL;
