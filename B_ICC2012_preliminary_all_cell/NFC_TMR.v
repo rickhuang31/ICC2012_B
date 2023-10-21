@@ -15,18 +15,18 @@ module NFC_TMR(clk, rst, done, F_IO_A_IN, F_IO_A_OUT, F_CLE_A, F_ALE_A, F_REN_A,
     input rst;
     output done;
 
-    inout [7:0] F_IO_A;
-    wire [7:0] F_IO_A_IN;
-    wire [7:0] F_IO_A_OUT;
+    //inout [7:0] F_IO_A;
+    input [7:0] F_IO_A_IN;
+    output [7:0] F_IO_A_OUT;
     output F_CLE_A;
     output F_ALE_A;
     output F_REN_A;
     output F_WEN_A;
     input F_RB_A;
 
-    inout [7:0] F_IO_B;
-    wire [7:0] F_IO_B_IN;
-    wire [7:0] F_IO_B_OUT;
+    //inout [7:0] F_IO_B;
+    input [7:0] F_IO_B_IN;
+    output [7:0] F_IO_B_OUT;
     output F_CLE_B;
     output F_ALE_B;
     output F_REN_B;
